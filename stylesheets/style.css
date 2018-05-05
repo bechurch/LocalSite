@@ -1,0 +1,191 @@
+@font-face{
+    font-family: "dearJoe";
+    src: url('../dearJoe6.ttf'),
+    url('../dearJoe6.otf'); /* IE */
+}
+
+#socialShare {
+    padding-top: 10px;
+
+}
+.twitter-mention-button {
+    vertical-align: text-bottom !important;
+}
+
+html, body {
+    width: auto !important;
+    overflow-x: hidden !important;
+}
+
+body {
+  font: 16px "Lucida Grande", Helvetica, Arial, sans-serif;
+  font-family: "Avenir Next";
+}
+
+a {
+  color: #00B7FF;
+}
+
+#intro {
+    background-color: #29FDC8 ;
+    background-image: -webkit-gradient(
+            linear,
+            left top,
+            right bottom,
+            color-stop(1, #29FDC8),
+            color-stop(1, #4CFF9A)
+    );
+    background-image: -o-linear-gradient(315deg, #29FDC8 100%, #4CFF9A 100%);
+    background-image: -moz-linear-gradient(315deg, #29FDC8 1000%, #4CFF9A 100%);
+    background-image: -webkit-linear-gradient(315deg, #29FDC8 100%, #4CFF9A 100%);
+    background-image: -ms-linear-gradient(315deg, #29FDC8 100%, #4CFF9A 100%);
+    background-image: linear-gradient(135deg, #29FDC8 100%, #4CFF9A 100%);
+    height: 365px;
+    color: white;
+    border-bottom: 1px;
+}
+#intro h1 {
+    font-size: 140px;
+    font-family: dearJoe;
+}
+
+@media(max-width: 480px) {
+    #intro h1 {
+        font-size: 100px;
+    }
+    #launchCopy h1 {
+        font-size: 60px;
+    }
+}
+
+#headerText {
+    margin-top: 110px;
+
+}
+#headerText p {
+    font-size: 20px;
+    font-family: "Avenir Next";
+}
+
+#aboutApp {
+    padding: 10px 0px 0px 40px;
+    margin-top: 30px;
+}
+#aboutApp h1 {
+    padding: 10px;
+}
+#aboutApp p {
+    padding: 10px;
+}
+.padding-bottom-10 {
+    padding-bottom: 10px;
+}
+
+.padding-top-10 {
+    padding-top: 10px;
+}
+
+.padding-top-15 {
+    padding-top: 15px;
+}
+
+.padding-top-20 {
+    padding-top: 20px;
+}
+
+.padding-top-30 {
+    padding-top: 30px;
+}
+
+.padding-top-40 {
+    padding-top: 40px;
+}
+
+.padding-top-80 {
+    padding-top: 80px;
+}
+.padding-top-100 {
+    padding-top: 100px;
+}
+.padding-top-120 {
+    padding-top: 120px;
+}
+
+.padding-left-10 {
+    padding-left: 10px;
+}
+
+.padding-right-20 {
+    padding-right: 20px;
+}
+.margin-top-20 {
+    margin-top: 20px;
+}
+.margin-top-30 {
+    margin-top: 30px;
+}
+#aboutUs {
+    border-top-color: black;
+    border-top-width: 1px;
+    padding: 40px;
+}
+.dividerSplash {
+    width: auto;
+    height: 1px;
+    background-color: grey;
+    margin: 20px 0px 40px 0px;
+}
+
+#footer {
+    background-color: #29FDC8 ;
+    background-image: -webkit-gradient(
+            linear,
+            left top,
+            right bottom,
+            color-stop(0, #29FDC8),
+            color-stop(1, #4CFF9A)
+    );
+    background-image: -o-linear-gradient(315deg, #29FDC8 0%, #4CFF9A 100%);
+    background-image: -moz-linear-gradient(315deg, #29FDC8 0%, #4CFF9A 100%);
+    background-image: -webkit-linear-gradient(315deg, #29FDC8 0%, #4CFF9A 100%);
+    background-image: -ms-linear-gradient(315deg, #29FDC8 0%, #4CFF9A 100%);
+    background-image: linear-gradient(135deg, #29FDC8 0%, #4CFF9A 100%);
+    height: auto;
+    color: white;
+    border-bottom: 1px;
+    padding: 10px 10px 10px 10px;
+}
+#mc_embed_signup {
+
+}
+#launchCopy h1, h2{
+    font-family: dearJoe;
+
+}
+#launchCopy h1 {
+    font-size: 30px;
+}
+.clearThis {
+    position: absolute;
+    left: -5000px;
+}
+
+.margin-left-10 {
+    margin-left: 10px;
+}
+
+.label-custom {
+    background-color: white;
+    color: #29FDC8;
+}
+
+.margin-left-0 {
+    margin-left: 0px !important;
+}
+
+@media screen and (min-width: 980px) {
+    .overlapUp {
+        margin-top: -350px;
+    }
+
+}
